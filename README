@@ -4,7 +4,13 @@ To follow this project, read the guidelines:
 
 1. Create three folders named node1, node2 and node3 and set up conf files. You can find conf files inside my node folders.
 
-2. Redis 5.0.5 is already in this project where 'make' command is executed to prepare redis server. If not then cd to redis and type "make"
+2. Open up cmd and Execute these commands :
+
+	wget http://download.redis.io/releases/redis-5.0.5.tar.gz
+	tar xzf redis-5.0.5.tar.gz
+	mv redis-5.0.5 redis
+	cd redis
+	make
 
 3. Put this project folder in Desktop.
 
