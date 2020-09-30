@@ -62,6 +62,9 @@ ___
 >Explanation on Source code
 ___
 
+ - In every folder there is a **conf** file which creates a redis server on given port
+ - Upon proper commands given on the top the servers get binded with each other to create a cluster.
+ - In python file, when the code gets connected with one server of the cluster, then it automatically finds the rest servers and using hashing algorithm, it inserts data in a round robin fashion.
 
 
 
