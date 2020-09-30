@@ -45,7 +45,7 @@ To learn about **Redis** from ground up hit this [Medium](https://medium.com/@ia
    ```
    ./redis/src/redis-cli -c -p 6001
    ```
-  ***Or***
+  **Or**
 	
  - Install redis-py-cluster by writing this command:
 	
