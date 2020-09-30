@@ -1,16 +1,16 @@
-For starting from raw follow this medium article: https://medium.com/@iamvishalkhare/create-a-redis-cluster-faa89c5a6bb4
+To learn about **Redis** from ground up hit this [Medium](https://medium.com/@iamvishalkhare/create-a-redis-cluster-faa89c5a6bb4) Article.
 
-To follow this project, read the guidelines:
-
-1. Three folders named node1, node2 and node3 to set up conf files.
-
-2. Open up cmd, cd to redis-cluster-python and execute these commands :
-
-	wget http://download.redis.io/releases/redis-5.0.5.tar.gz
+# Installation
+- Three folders named node1, node2 and node3 to set up conf files.
+- Open up cmd, cd to redis-cluster-python and execute these commands :
+  ```
+  	wget http://download.redis.io/releases/redis-5.0.5.tar.gz
 	tar xzf redis-5.0.5.tar.gz
 	mv redis-5.0.5 redis
 	cd redis
 	make
+  ```
+
 
 3. Put this project folder in Desktop.
 
