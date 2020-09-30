@@ -37,8 +37,11 @@ To learn about **Redis** from ground up hit this [Medium](https://medium.com/@ia
    ```
    >So three instances of redis server are up with these ports: 6001,6002,6003 along with their conf files. 
 	
- - Now bind these three server in redis-cli so that it knows how to hash and store data according to hash by typing this command:
-	./redis/src/redis-cli --cluster create 127.0.0.1:6001 127.0.0.1:6002 127.0.0.1:6003
+ - Now bind these three server in redis-cli so that it knows how to hash and store data according to hash by typing this command
+ 
+   ```
+   ./redis/src/redis-cli --cluster create 127.0.0.1:6001 127.0.0.1:6002 127.0.0.1:6003
+   ```
 
  - You can directly start the redis-cli by using this command and do queries
    
