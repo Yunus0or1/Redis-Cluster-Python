@@ -2,13 +2,14 @@ To learn about **Redis** from ground up hit this [Medium](https://medium.com/@ia
 
 # Installation
 - Three folders named node1, node2 and node3 to set up conf files.
-- Open up cmd, cd to redis-cluster-python and execute these commands :
+- Open up cmd, cd to redis-cluster-python and execute these commands:
+
   ```
-  	wget http://download.redis.io/releases/redis-5.0.5.tar.gz
-	tar xzf redis-5.0.5.tar.gz
-	mv redis-5.0.5 redis
-	cd redis
-	make
+  wget http://download.redis.io/releases/redis-5.0.5.tar.gz
+  tar xzf redis-5.0.5.tar.gz
+  mv redis-5.0.5 redis
+  cd redis
+  make
   ```
 
 
