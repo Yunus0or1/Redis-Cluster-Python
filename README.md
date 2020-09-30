@@ -15,21 +15,21 @@ To learn about **Redis** from ground up hit this [Medium](https://medium.com/@ia
 
  - Put this project folder in Desktop.
 
- - Open a terminal in Desktop and write these commands
+ - Open a terminal(1) in Desktop and write these commands
  
    ```
    cd redis-cluster-python
    ./redis/src/redis-server ./node1/redis.conf
    ```
 
- - Open another termianl and write these commands
+ - Open another termianl(2) and write these commands
  
    ```
    cd redis-cluster-python
    ./redis/src/redis-server ./node2/redis.conf
    ```
 
- - Open another termianl and write these commands
+ - Open another termianl(3) and write these commands
  
    ```
    cd redis-cluster-python
@@ -37,21 +37,23 @@ To learn about **Redis** from ground up hit this [Medium](https://medium.com/@ia
    ```
    >So three instances of redis server are up with these ports: 6001,6002,6003 along with their conf files. 
 	
-5. Now bind these three server in redis-cli so that it knows how to hash and store data according to hash by typing this command:
+ - Now bind these three server in redis-cli so that it knows how to hash and store data according to hash by typing this command:
 	./redis/src/redis-cli --cluster create 127.0.0.1:6001 127.0.0.1:6002 127.0.0.1:6003
 
-6. You can directly start the redis-cli by using this command: 
-		./redis/src/redis-cli -c -p 6001
+ - You can directly start the redis-cli by using this command and do queries
+   
+   ```
+   ./redis/src/redis-cli -c -p 6001
+   ```
+  ***Or***
 	
-	And do your query.
+ - Install redis-py-cluster by writing this command:
 	
-	Or
-	
-	Install redis-py-cluster by writing this command:
-	
-		pip3 install redis-py-cluster
+   ```
+   pip3 install redis-py-cluster
+   ```
 
-7. Execute rcp.py to access redis-cluster using python.
+ - Execute rcp.py to access redis-cluster using python.
 
 
 
