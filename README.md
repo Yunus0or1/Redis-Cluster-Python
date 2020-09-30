@@ -56,7 +56,7 @@ To learn about **Redis** from ground up hit this [Medium](https://medium.com/@ia
    pip3 install redis-py-cluster
    ```
 
- - Execute rcp.py to access redis-cluster using python.
+ - Execute ***rcp.py*** to access redis-cluster using python.
 
 
 
