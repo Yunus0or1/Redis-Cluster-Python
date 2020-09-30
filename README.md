@@ -13,11 +13,15 @@ To learn about **Redis** from ground up hit this [Medium](https://medium.com/@ia
   ```
 
 
-3. Put this project folder in Desktop.
+ - Put this project folder in Desktop.
 
-4. Open a terminal in Desktop and write these commands:
-		cd redis-cluster-python
-		./redis/src/redis-server ./node1/redis.conf
+ - Open a terminal in Desktop and write these commands
+ 
+   ```
+   cd redis-cluster-python
+   ./redis/src/redis-server ./node1/redis.conf
+  ```
+
 		
 	Open another termianl and write these commands: 
 		cd redis-cluster-python
